@@ -135,18 +135,27 @@
         width: 100%;
     }
 
-
-
-
-
-
-
-
-
+    /*-----footer------------*/
 
     .footer>div{
         flex-direction: column;
+        padding: 0 10px;
     }
+    .footer>div:nth-child(n) div:nth-child(1) div:nth-child(n){
+        width: 95vw;
+        padding-left:30px ;
+    }
+    .footer>div:nth-child(n) div:nth-child(2) div:nth-child(n){
+        width: 95vw;
+    }
+    .footer>div:nth-child(n) div:nth-child(n) p{
+        width: 80vw;
+        text-align: center;
+        font-size: 25px;
+        line-height: 130%; /* 45.5px */
+        letter-spacing: 1.5px;
+    }
+
 }
 
 
