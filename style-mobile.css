@@ -1,0 +1,155 @@
+@media screen and (min-width: 320px) and (max-width: 780px){
+    header{
+        margin: 30px 0 60px 0;
+    }
+    nav{
+        display: none;
+    }
+    .info>div{
+    flex-direction: column;
+        justify-content: center;
+    }
+    .info>div>div{
+        width: 100%;
+        text-align: center;
+        margin:0 10px 105px 10px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+/*-------section_about---------*/
+    .about{
+        padding: 42px 15px 42px 15px;
+
+    }
+    .about>div{
+        flex-direction: column-reverse;
+        height: 100%;
+        align-items: center;
+        gap: 42px;
+    }
+    .about>div>div{
+        width: 95%;
+        text-align: justify;
+    }
+    .about h3{
+       ;
+        text-align: center;
+        font-size: 25px;
+        line-height: 130%; /* 32.5px */
+        letter-spacing: 1.5px;
+    }
+
+    /*--------section_our-friends*/
+    .our-friends{
+        padding: 42px 10px 42px 10px;
+    }
+    .our-friends>div{
+        gap: 0;
+    }
+    .our-friends h3{
+        width: 100%;
+        font-size: 25px;
+        margin-bottom: 42px;
+    }
+    .cards div:nth-child(n+2){
+        display: none;
+    }
+    .cards:nth-child(n) div{
+        width: 100%;
+        align-items: normal;
+        margin-bottom: 72px;
+
+    }
+    .cards:nth-child(n) button{
+        align-self: center;
+    }
+    .our-friends>div>button{
+        margin: 0 20px 42px 20px;
+    }
+
+
+
+
+    /*-------help----------*/
+
+    .help{
+        padding: 42px 15px;
+    }
+    .help>div{
+        width: 100vw;
+    }
+    .icons{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .icons div:nth-child(n){
+        gap: 20px;
+        width: 45%;
+    }
+    .icons div:nth-child(n) p{
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%; /* 23px */
+        letter-spacing: 1px;
+    }
+
+    /*--------donate--------------*/
+
+    .donate{
+        padding: 42px 10px;
+    }
+    .donate>div{
+        flex-direction: column-reverse;
+        width: 100vw;
+    }
+    .donate-info{
+        width: 100vw;
+        height: 281px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 42px;
+        text-align: center;
+        padding: 0 10px;
+    }
+    .donate-info h3 {
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: 1.5px;
+    }
+    .donate-info p:first-of-type{
+        line-height: 160%; /* 16.5px */
+    }
+    .donate-info p:last-of-type{
+        text-align: justify;
+    }
+    .donate-info h4{
+        font-size: 15px;
+    }
+    .donate img{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+    .footer>div{
+        flex-direction: column;
+    }
+}
+
+
+
+
+

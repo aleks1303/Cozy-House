@@ -279,12 +279,21 @@ header p{
     line-height: 130%; /* 45.5px */
     letter-spacing: 2px;
 }
-.icons:nth-child(n) div{
+.icons div:nth-child(n){
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     gap: 30px;
+}
+.icons:nth-child(n) p{
+    color: #545454;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 16.5px */
+    letter-spacing: 0.9px;
 }
 
 /*-------------section_donate------------------*/
@@ -328,7 +337,7 @@ header p{
     border-radius: 9px;
     background-color:#F1CDB3;
 }
-.donate-info>div span{
+.donate-info>div h4{
     color:#545454;
     font-family: Georgia, sans-serif;
     font-size: 20px;
@@ -339,6 +348,14 @@ header p{
 }
 .donate img{
     width: 39vw;
+}
+.donate-info p:first-of-type{
+    color:#545454;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 16.5px */
+    letter-spacing: 0.9px;
 }
 .donate-info p:last-of-type{
     color:#B2B2B2;
